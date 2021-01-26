@@ -1,0 +1,50 @@
+/* CSS DOCUMENT */
+
+body{
+   font-family: sans-serif;
+   background-color: #FBFBFB;
+   margin-left: 64px;
+   margin-right: 64px;
+} 
+
+h1{
+   color: #1F3B97;
+   font-size: 1.5em;
+   padding-top: 16px;
+}
+
+h2{
+   color: #1F3B97;
+   font-size: 2em;
+   padding-top: 8px;
+   margin-bottom: -12px;
+}
+
+h3{
+   color: #E38D34;
+   margin-bottom: -10px;
+   padding-top: 8px;
+   font-size: 1.5em;
+}
+
+h4{
+	color: #1F3B97;
+}
+
+ul{
+   padding: 0;
+}
+
+li{
+   list-style: none;
+}
+
+p{
+   line-height: 1.5;
+   margin-top: -16px;
+}
+
+.price{
+	padding-top: 4px;
+	font-style: italic;
+}

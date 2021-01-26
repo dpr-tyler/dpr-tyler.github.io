@@ -1,5 +1,13 @@
 /* CSS DOCUMENT */
 
+html, body, h1, h2, h3, h4, h5, h6, p,  ul, li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
 body{
    font-family: sans-serif;
    background-color: #FBFBFB;
@@ -9,26 +17,27 @@ body{
 
 h1{
    color: #1F3B97;
-   font-size: 1.5em;
-   padding-top: 16px;
+   font-size: 1.25em;
+   padding-top: 24px;
 }
 
 h2{
    color: #1F3B97;
    font-size: 2em;
-   padding-top: 8px;
-   margin-bottom: -12px;
+   padding-top: 32px;
+   padding-bottom: 12px;
 }
 
 h3{
    color: #E38D34;
-   margin-bottom: -10px;
    padding-top: 8px;
+   padding-bottom: 8px;
    font-size: 1.5em;
 }
 
 h4{
 	color: #1F3B97;
+	padding-top: 8px;
 }
 
 ul{
@@ -41,10 +50,11 @@ li{
 
 p{
    line-height: 1.5;
-   margin-top: -16px;
+   padding-top: 4px;
 }
 
 .price{
-	padding-top: 4px;
+	padding-top: 8px;
+	padding-bottom: 20px;
 	font-style: italic;
 }

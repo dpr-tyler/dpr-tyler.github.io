@@ -1,0 +1,132 @@
+/*CSS document*/
+
+body {
+    background-color: #f6f6f6;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    margin-top:  0.75em;
+    transition: all .25s ease-in-out; 
+}
+
+img:hover{
+    transform: scale(1.01); 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    font-family: effra, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline;
+    margin-right: 0.75em;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul li a{
+    color:  #080708;
+} 
+
+nav ul li a:hover{
+    border-bottom: 2px solid #080708;
+}
+
+h2{
+    font-family: roc-grotesk-wide,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:  #080708;
+}
+
+h3{
+    font-family: roc-grotesk-wide,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:  #080708;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+section.main-story h3{
+    font-size: 1.5em;
+}
+
+section.no-image-story h3{
+    margin-top: 1.5em;
+}
+
+h4{
+    font-family: effra, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    color:  #080708;
+    margin-top: 1.5em;
+    margin-bottom:  0;
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+p{
+    font-family: effra, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  #080708;
+    margin-top: 0.2em;
+    margin-bottom:  0;
+    line-height:  1.35em;
+}
+
+section.normal-story p{
+    margin-bottom:  1.25em;
+}
+
+section.bottom-story p{
+    margin-bottom:  1.5em;
+}
+
+p.author{
+    margin-top:  3em;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    border: 1px dashed #080708;
+    margin-top:  1.5em;
+    margin-bottom:  1.5em;
+}
+
+figcaption{
+    font-family: effra, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  #080708;
+    margin-bottom:  1.5em;
+}
+
+footer{
+    text-align: right;
+    margin-top:  2em;
+}

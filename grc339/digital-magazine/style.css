@@ -29,16 +29,15 @@ ul {
 }
 
 nav ul li{
-    font-family: effra, sans-serif;
+    font-family: roc-grotesk-wide,sans-serif;
     font-weight: 400;
     font-style: normal;
     display: inline;
-    margin-right: 0.75em;
+    margin-right: 0.95em;
 }
 
 nav{
     text-align: center;
-    font-size: 1.05em;
 }
 
 nav ul li a{

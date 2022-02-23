@@ -1,5 +1,3 @@
-
-
 /*CSS document*/
 
 body {
@@ -81,6 +79,7 @@ h2.story {
 
 h2.featured {
     color: #B61D5A;
+    margin-bottom: 0;
 }
 
 h2.more {

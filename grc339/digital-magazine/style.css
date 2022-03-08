@@ -52,7 +52,7 @@ img.gallery {
 
 main.gallery {
     position: relative;
-    padding-bottom: calc(56% + 3em);
+    padding-bottom: calc(57% + 3em);
     overflow: hidden;
 }
 
@@ -81,6 +81,7 @@ nav.gallery {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 1em;
 }
 
 label.gallery {
@@ -165,7 +166,11 @@ h2.more {
     margin-bottom: 0;
     color: #293B98;
     font-size: 2em;
-    margin-top: 1.5em;
+    margin-top: 1.5em;;
+}
+
+img.more{
+    margin-top: 0.75em;
 }
 
 h3 {
@@ -246,8 +251,6 @@ label {
 }
 
 section.newsletter-option {
-    /*display: flex;*/
-    /*flex-direction: row;*/
     padding-left: 10px;
 }
 
@@ -308,6 +311,15 @@ figcaption {
     font-style: italic;
     color: #080708;
     margin-bottom: 1.5em;
+    font-size: 1.25em;
+}
+
+figcaption.gallery{
+    font-size: 1.25em;
+}
+
+img.gallery-nav{
+    margin-top: 0;
 }
 
 footer {

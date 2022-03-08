@@ -14,6 +14,11 @@ div.story-container {
     margin: auto;
 }
 
+body.newsletter{
+    max-width: 80em;
+    margin: auto;
+}
+
 article.story {
     max-width: 45em;
     margin: auto;
@@ -152,14 +157,15 @@ h2 {
 
 h2.story {
     margin-bottom: 0;
-    margin-top: 1.5em;
+    margin-top: 1em;
     font-size: 3em;
 }
 
 h2.featured {
     color: #B61D5A;
     margin-bottom: 0;
-    font-size: 2.25em;
+    font-size: 2em;
+    margin-top: 0.5em;
 }
 
 h2.more {
@@ -174,17 +180,24 @@ img.more{
 }
 
 h3 {
-    font-family: roc-grotesk-wide, sans-serif;
-    font-weight: 600;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
     font-style: normal;
     color: #080708;
     margin-top: 0.5em;
     margin-bottom: 0;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    line-height: 1.25em;
 }
 
 h3.main {
-    font-size: 2em !important;
+    font-size: 2.25em !important;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-weight: 600;
+}
+
+h3.first{
+    margin-top: 0;
 }
 
 section.main-story h3 {
@@ -234,7 +247,7 @@ main.newsletter {
     max-width: 40em;
     margin: 1em;
     padding: 1em;
-    background: #ffffff;
+    background: #fafafa;
     padding: 1em 0.5em 1em 2.5em;
     border-radius: 10px;
 }
@@ -281,6 +294,9 @@ section ul li input[type="email"] {
 h3.personal-info {
     margin-top: 2em;
     font-size: 1.5em;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 section.normal-story p {
